@@ -1,7 +1,9 @@
 # FastApi_SqlAlchemy_alembic
 Для работы требуется Python 3.10. Достаточно его просто установить в систему
 
-Реаилизован CRUD
+Онлайн Библиотека
+
+Реализован CRUD + Поиск книги по названию
 ![screen](https://github.com/Foxik007/FastApi_SqlAlchemy_alembic/assets/85826675/e0cb11c7-f06f-413b-8f0e-744cc41ebbce)
 ![screen2](https://github.com/Foxik007/FastApi_SqlAlchemy_alembic/assets/85826675/a8a520c8-f5c8-4198-beae-5392d50ef70d)
 
