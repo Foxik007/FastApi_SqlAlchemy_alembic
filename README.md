@@ -8,13 +8,13 @@
 Установленные библиотеки requirements.txt
 <ul dir="auto">
 <li><a href="https://github.com/tiangolo/fastapi">fastapi</a></li>
-<a href="https://www.sqlalchemy.org/" rel="nofollow">sqlalchemy</a></li>
+<li><a href="https://www.sqlalchemy.org/" rel="nofollow">sqlalchemy</a></li>
 <li><a href="https://alembic.sqlalchemy.org/en/latest/" rel="nofollow">alembic</a></li>
-<a href="https://fastapi.tiangolo.com/advanced/templates/" rel="nofollow">jinja2</a></li>
-
+<li><a href="https://fastapi.tiangolo.com/advanced/templates/" rel="nofollow">jinja2</a></li>
+</ul>
 
 <b>TODO</b>
 <li>Docker</li>
 <li>Покрыть тестами Pytest</li>
-</ul>
+
 
