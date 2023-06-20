@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script>
+    const searchForName = () => {
+        const searchInputValue = document.getElementById("book_search").value;
+        window.location.href = `/pages/search/${searchInputValue}`;
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="flex justify-center flex-col items-center">
+    <div class="flex my-3 gap-5">
+        <input id="book_search" type="text" placeholder="Название книги" class="text-xl">
+        <button onclick="searchForName()" class="border-2 rounded-3xl bg-gray-300 p-3">Поиск по цене</button>
+    </div>
+    <span>Например: Python Глазами хакера </span>
+    {% for book in books %}
+        <div class="flex rounded-3 border-2 p-3 mt-5">
+            <img width="150" src="{{ url_for('static', path='stocks_1.png') }}" alt="Стонкс" class="mr-5">
+            <div class="flex flex-col">
+                <span class="text-2xl font-bold">{{ book.name_book }}</span>
+                <span class="text-lg">Автор:{{ book.autor }}</span>
+                <span class="text-lg">Цена:{{ book.price }}</span>
+                <span class="text-lg">Кол-во страниц:{{ book.page }}</span>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
