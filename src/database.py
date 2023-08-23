@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "postgresql+asyncpg://postgres:7259512aA@localhost:5432/postgres"
+DATABASE_URL = "postgresql+asyncpg://postgres:******pass@localhost:5432/postgres"
 
 
 metadata = MetaData()
